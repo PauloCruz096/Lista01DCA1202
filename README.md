@@ -1,0 +1,2 @@
+# Lista01DCA1202
+Lista_de_execicios_ponteiros
