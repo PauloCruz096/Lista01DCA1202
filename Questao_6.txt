@@ -1,0 +1,6 @@
+Sendo "pulo[]" um vetor do tipo int:
+*(pulo+2); //faz referência ao endereço da terceira posição do vetor.
+*(pulo+3); //faz referência ao endereço da quarta posição do vetor.
+pulo+4; //faz referência ao conteúdo da quinta posição do vetor.
+pulo+2; //faz referência ao conteúdo da terceira posição do vetor.
+Portanto, a quarta expressão referencia o valor do terceiro elemento do vetor.
