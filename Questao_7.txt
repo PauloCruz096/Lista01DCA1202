@@ -1,0 +1,5 @@
+Sendo: int mat[4], *p, x;
+p = mat + 1; //É válido, o ponteiro "p" está recebendo o endereço de memória do segundo "bloco" do array "mat".
+p = mat++; //Não é válido pois a variável "mat" é um array, portanto possui um endereço fixo que não pode ser incrementado.
+p = ++mat; //Não é válido pela mesma situação da linha anterior.
+x = (*mat)++; //É válido, a variavel "x" está recebendo o conteúdo de "mat" mais 1.
