@@ -1,0 +1,15 @@
+int main(){
+ int vet[] = {4,9,13};
+ int i;
+ for(i=0;i<3;i++){
+  printf("%d ",*(vet+i));
+ }
+} // Imprime em cada laço (de 0 até 3) o conteúdo do array "vet" na posição indicada pelo contador "i".
+
+int main(){
+ int vet[] = {4,9,13};
+ int i;
+ for(i=0;i<3;i++){
+  printf("%X ",vet+i);
+ }
+} // Imprime em cada laço (de 0 até 3) o endereço de memória do array "vet" somado com o contador "i".
