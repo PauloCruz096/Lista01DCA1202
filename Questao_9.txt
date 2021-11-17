@@ -1,0 +1,4 @@
+Para x declarado como char: 4093, 4094 e 4095.
+Para x declarado como int: 4094, 4096 e 4098.
+Para x declarado como float: 4096, 4100 e 4104.
+Para x declado como double: 4100, 4108 e 4116.
