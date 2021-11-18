@@ -1,0 +1,10 @@
+    float aloha[10], coisas[10][15],*pf, value = 2.2;
+    int i=3;
+    aloha[2] = value; // é válido, array float "aloha" recebe na terceira posição uma variável do tipo float.
+    scanf("%f", &aloha); // não é válido, apesar de ser compilado aloha não receberá o conteúdo digitado.
+    aloha = value; // não é válido pois "aloha" é um array e "value" apesar de ser do tipo float não é um array.
+    printf("%f", aloha); // é válido, imprime o conteúdo do primeiro bloco do array "aloha".
+    coisas[4][4] = aloha[3]; //é válido a matriz "coisas" recebe o conteúdo do quarto bloco de "Aloha" na posícão 5 e 5.
+    coisas[5] = aloha; // não é válido pois não se compara array com um array de arrays.
+    pf = value; // não é válido pois se tem um ponteiro recebendo uma variável.
+    pf = aloha; // é válido pois arrays são ponteiros.
